@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #c0b2a1;
+    
+}
+
+
+.top{
+	width: 800px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -55px
+}   
+
+h1{
+    margin-right: -4px;
+}
+
+.top-section-left {
+    width: 250px;
+}
+
+.top-section{
+    margin-left: -20px;
+}
+img{
+    border-radius: 50%;
+    align-items: center;
+    width: 110px;
+    border: 2px solid black;
+}
+
+.top-section-right{
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.top-section-right span{
+    display: block;
+    line-height: 30px;
+}
+.main{
+    background: white;
+    width: 800px;
+    margin: 50px auto;
+    height: 850px;
+    display: flex;
+    border-top: 2px solid  #0bb5f4;;
+}
+
+.main .left-wrapper{
+    margin-left: 25px;
+    /* margin-right: 10px; */
+    width: 50%;
+    background: white;
+   float: right;
+    
+}
+
+.education{
+    line-height: 28px;
+}
+
+.education h3,.education p{
+    display: inline;
+}
+
+.main .right-wrapper{
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 40%;
+    background: white;
+    float: left;
+    margin-top: 0;
+}
+
+.projects {
+    line-height: 28px;
+}
+.skills{
+    display: flex;
+}
+.skills li{
+    line-height: 25px;
+}
+.skills ul h3{
+    display: inline;
+    margin-right: 9rem;
+}
+.interpersonal_skills li{
+    line-height: 25px;
+}
+/* .name{
+    color: #0bb5f4;
+} */
